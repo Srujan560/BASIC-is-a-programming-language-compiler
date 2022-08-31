@@ -1,0 +1,13 @@
+b = 5
+Gosub: a = b + 5*6
+RETURN
+PRINT "Gosub:", a 
+b = 2
+GOSUB Gosub
+PRINT "Gosub:", a 
+FOR loop = 0 TO 10
+PRINT "Loop Count", loop
+NEXT loop
+PRINT "FOR loop is done"
+value: PRINT "12 is less than or equal to 7"
+IF 12>7 THEN value:
